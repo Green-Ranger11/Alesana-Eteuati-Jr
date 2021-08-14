@@ -1,0 +1,167 @@
+@import "toggle"; 
+.navbar {
+  background-color: var(--banner-background-color);
+}
+.nav-bar {
+  width: 100%;
+  display: inline-block;
+  background-color: var(--banner-background-color);
+  font-family: "Poppins", serif;
+  font-weight: 700 !important;
+  padding-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.nav-logo img {
+    width: 200px;
+    z-index: 1;
+}
+
+.navbar-toggler {
+  background-color: white;
+  float: right;
+  position: relative;
+}
+.navbar-brand {
+    position: absolute;
+    left: 5%;
+    margin-left: -50px !important;
+    display: block;
+    padding-left: 5%;
+}
+
+button {
+  margin-left: 82%;
+}
+
+.navbar-collapse {
+    margin-left: 82%;
+}
+
+@media (min-width: 1200px) {
+  .navbar-collapse {
+      margin-left: auto;
+  }
+  .navbar-brand {
+    left: 5%;
+  }
+}
+
+
+@media (max-width: 1076px) {
+  .navbar-brand {
+     left: 11%;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    margin-left: 10%;
+    padding-left: 5%;
+  }
+  button {
+    margin-left: 30%;
+  }
+  .navbar-collapse {
+    margin-left: 30%;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 590px) {
+  button {
+    margin-left: 60%;
+  }
+  .navbar-collapse {
+    margin-left: 60%;
+  }
+}
+
+@media (min-width: 590px) and (max-width: 850px) {
+  button {
+    margin-left: 72%;
+  }
+  .navbar-collapse {
+    margin-left: 72%;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+  button {
+    margin-left: 80%;
+  }
+  .navbar-collapse {
+    margin-left: 80%;
+  }
+}
+
+/* Dark Mode toggle */
+
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  color: white;
+  background-color: var(--banner-background-color);
+
+  em {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+
+}
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
