@@ -1,19 +1,20 @@
-- title: Task Tracker
+- title: GitDash
   event: MLH Fellowship Pre Fellowship Project
   date: Summer 2021  - Batch 3.5
-  page-name: project
+  page-name: gitdash
   
   # Optional links
-  github: https://github.com/
-  external_link: https://github.com/
-  video_demo: https://github.com/
+  github: https://github.com/MLH-Fellowship/gitdash
+  external_link: https://gitdash.tech
+  video_demo: https://youtu.be/BD9mdLCV8zs
   
   id: 1
   summary: >- # This means to ignore newlines until the next attribute. This summary is used for the overlay card content. 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    As software developers, we have often started new projects and then we forgot about it. 
+    This mostly happens because we don't track what items we are working on and what the deadline 
+    is. We might track a single repo and all the issues on it but what if we had one place which 
+    would track all of our issues and send us reminders when we don't work a specific deadline 
+    irrespective of what the repository may be. Presenting to you, GitDash..
 
 # Second Dummy project
 - title: Not a Task Tracker
