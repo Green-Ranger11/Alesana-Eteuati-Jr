@@ -7,7 +7,7 @@
   display: inline-block;
   background-color: var(--banner-background-color);
   font-family: 'Roboto Mono', monospace;  font-weight: 700 !important;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -47,9 +47,13 @@ button {
 @media (min-width: 1200px) {
   .navbar-collapse {
       margin-left: auto;
+      align-items: flex-start;
   }
   .navbar-brand {
     left: 5%;
+  }
+  .navbar {
+    align-items: flex-start;
   }
 }
 
@@ -57,47 +61,6 @@ button {
 @media (max-width: 1076px) {
   .navbar-brand {
      left: 11%;
-  }
-}
-
-@media (max-width: 500px) {
-  .navbar-brand {
-    margin-left: 10%;
-    padding-left: 5%;
-  }
-  button {
-    margin-left: 30%;
-  }
-  .navbar-collapse {
-    margin-left: 30%;
-  }
-
-}
-
-@media (min-width: 500px) and (max-width: 590px) {
-  button {
-    margin-left: 60%;
-  }
-  .navbar-collapse {
-    margin-left: 60%;
-  }
-}
-
-@media (min-width: 590px) and (max-width: 850px) {
-  button {
-    margin-left: 72%;
-  }
-  .navbar-collapse {
-    margin-left: 72%;
-  }
-}
-
-@media (min-width: 850px) and (max-width: 1000px) {
-  button {
-    margin-left: 80%;
-  }
-  .navbar-collapse {
-    margin-left: 80%;
   }
 }
 
