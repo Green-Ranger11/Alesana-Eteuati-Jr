@@ -140,6 +140,17 @@ a {
   }
 }
 
+.experience-icon {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+}
+
 /* Netlify form at the end of the index page */
 .form-control {
   background-color: var(--card-color);

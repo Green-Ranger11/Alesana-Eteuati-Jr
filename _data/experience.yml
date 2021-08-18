@@ -1,4 +1,8 @@
-- role: Pre Fellowship Fellow
+- role: Software Developer
+  company: Computer Services Limited
+  dates: Mar 2021 - Present
+  logo: csl.png
+- role: Explorer Fellow
   company: MLH Fellowship
   dates: Summer 2021
-  logo: fellowship.svg
+  logo: mlh.svg

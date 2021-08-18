@@ -1,9 +1,9 @@
-- course: BSc Computer Science
-  institute: University of Birmingham
-  dates: 2018 - 2021
-  logo: uob.png
+- course: BSe Software Engineering
+  institute: University of the South Pacific
+  dates: 2017 - 2020
+  logo: usp.png
   
-- course: Pre Fellowship Fellow
+- course: Explorer Fellow
   institute: MLH Fellowship
   dates: Summer 2021
   logo: fellowship.svg
