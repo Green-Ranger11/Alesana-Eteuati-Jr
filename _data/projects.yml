@@ -28,3 +28,17 @@
     time, paper and costs. This was a web application built on Angular and .Net Core. In addition,
     the application also had strict controls on what users could do particularly who can upload,
     view, download and archive files as well as searching.
+
+- title: Vaea - Discord Bot
+  event: Samoa Stack Overflow Group
+  date: August 2021 - Present
+
+  github: https://github.com/Green-Ranger11/SamoaDevBot
+
+  id: 3
+  summary: >- # This means to ignore newlines until the next attribute
+    Built and deployed a discord bot for the local programming community in Samoa. The group
+    is name Samoa Stack Overflow and is a coming togethor of  all the programmers in Samoa despite
+    There only being a handful of us. Built this discord bot using discord.js library and have
+    incorporated slash commands and roles given by reactions. Also set up continuous deploys with
+    github actions to deploy bot to Linode cluster to run 24/7
