@@ -1,7 +1,6 @@
 .home {
   background-color: var(--banner-background-color) !important;
   position: relative;
-  height: 80vh;
   overflow: hidden;
 }
 
@@ -25,6 +24,7 @@
     background-color: var(--banner-light-blue) !important;
     margin-top: 50px;
     align-items: center;
+    margin-bottom: 20px;
   
     .social-image {
       padding: 10px;
