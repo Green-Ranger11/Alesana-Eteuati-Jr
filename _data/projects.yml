@@ -1,19 +1,16 @@
-- title: GitDash
-  event: MLH Fellowship Pre Fellowship Project
-  date: Summer 2021  - Batch 3.5
-  
-  # Optional links
-  github: https://github.com/MLH-Fellowship/gitdash
-  external_link: https://gitdash.tech
-  video_demo: https://youtu.be/BD9mdLCV8zs
-  
-  id: 4
-  summary: >- # This means to ignore newlines until the next attribute. This summary is used for the overlay card content. 
-    As software developers, we have often started new projects and then we forgot about it. 
-    This mostly happens because we don't track what items we are working on and what the deadline 
-    is. We might track a single repo and all the issues on it but what if we had one place which 
-    would track all of our issues and send us reminders when we don't work a specific deadline 
-    irrespective of what the repository may be. Presenting to you, GitDash..
+
+- title: can-merge
+  event: Open Source
+  date: October 2021 - Present
+
+  github: https://github.com/ljharb/can-merge
+
+  id: 1
+  summary: >- # This means to ignore newlines until the next attribute
+    Frequently contribute to can-merge. can-merge is a command-line utility that enables you to check 
+    whether a certain pull request can actually be merged without navigating to the web UI. It uses 
+    the GitHub GraphQL API to fetch the latest state of the status checks that might be running and 
+    evaluates if the PR can be merged.
 
 # Second Dummy project
 - title: E-Filing System
@@ -43,15 +40,19 @@
     incorporated slash commands and roles given by reactions. Also set up continuous deploys with
     github actions to deploy bot to Linode cluster to run 24/7
 
-- title: can-merge
-  event: Open Source
-  date: October 2021 - Present
-
-  github: https://github.com/ljharb/can-merge
-
-  id: 1
-  summary: >- # This means to ignore newlines until the next attribute
-    Frequently contribute to can-merge. can-merge is a command-line utility that enables you to check 
-    whether a certain pull request can actually be merged without navigating to the web UI. It uses 
-    the GitHub GraphQL API to fetch the latest state of the status checks that might be running and 
-    evaluates if the PR can be merged.
+- title: GitDash
+  event: MLH Fellowship Pre Fellowship Project
+  date: Summer 2021  - Batch 3.5
+  
+  # Optional links
+  github: https://github.com/MLH-Fellowship/gitdash
+  external_link: https://gitdash.tech
+  video_demo: https://youtu.be/BD9mdLCV8zs
+  
+  id: 4
+  summary: >- # This means to ignore newlines until the next attribute. This summary is used for the overlay card content. 
+    As software developers, we have often started new projects and then we forgot about it. 
+    This mostly happens because we don't track what items we are working on and what the deadline 
+    is. We might track a single repo and all the issues on it but what if we had one place which 
+    would track all of our issues and send us reminders when we don't work a specific deadline 
+    irrespective of what the repository may be. Presenting to you, GitDash..
