@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+	--color-bg: var(--bg);
+	--color-fg: var(--fg);
+	--color-sub: var(--sub);
+	--color-dim: var(--dim);
+	--color-line: var(--line);
+	--color-lavender: var(--lavender);
+	--color-teal: var(--teal);
+	--color-green: var(--green);
+	--color-red: var(--red);
+}
+
+/* Catppuccin Mocha on crust, matching kitty + starship */
+:root {
+	--bg: #11111b;
+	--fg: #cdd6f4;
+	--sub: #a6adc8;
+	--dim: #6c7086;
+	--line: #313244;
+	--lavender: #b4befe;
+	--teal: #94e2d5;
+	--green: #a6e3a1;
+	--red: #f38ba8;
+	color-scheme: dark;
+}
+
+html {
+	@apply bg-bg font-mono text-fg antialiased;
+}
+
+a {
+	@apply transition-colors hover:text-green;
+}
+
+::selection {
+	@apply bg-green text-bg;
+}
