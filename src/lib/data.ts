@@ -11,7 +11,7 @@ export const site = {
 	handle: 'alesana',
 	role: 'Senior Software Developer @ Vodafone Samoa',
 	about:
-		'Talofa lava! I am a full stack software developer from Samoa. I build web systems end to end, from the database to the UI, and I have mentored students at the University of the South Pacific.',
+		"Talofa lava! I'm a full stack developer from Samoa, mostly writing Go and TypeScript with SvelteKit. I live in the terminal on Arch Linux and Hyprland, with Neovim, tmux and Quickshell.",
 	skills: [
 		'Go',
 		'TypeScript',
