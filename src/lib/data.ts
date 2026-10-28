@@ -39,7 +39,9 @@ export const experience = [
 		href: 'https://www.miracletrade.com',
 		logo: miracle,
 		details: [
-			"Building Miracle Trade's trading platform across the web terminal, back office, mobile app and Go backend."
+			'Build the web trading terminal in Next.js and React, trading across several exchanges from one interface.',
+			'Build backend services in Go, with automated deploys, smoke tests and rollback.',
+			'Work on the Android and iOS app in React Native and internal tools in SvelteKit.'
 		],
 		roles: [{ title: 'Full Stack Developer', dates: 'Jan 2026 - Present' }]
 	},
@@ -48,9 +50,11 @@ export const experience = [
 		href: 'https://vodafone.com.ws',
 		logo: vodafone,
 		details: [
-			'Built the eSIM registration system that made Vodafone Samoa the first carrier in Samoa with eSIM support (React, Supabase, Express, Metabase).',
-			'Launched the Vodafone Samoa online shop with card checkout and in-store pickup, so customers overseas can buy for people in Samoa.',
-			'Build internal platforms in Go and SvelteKit for bookings, SMS, retail financing, reporting and customer portals.'
+			'Built the eSIM platform that made Vodafone Samoa the first carrier in Samoa with eSIM support, including online eSIM sales for tourists.',
+			'Launched the online shop with card checkout and in-store pickup, so customers overseas can buy for family in Samoa.',
+			'Build the internal staff apps for bookings, vouchers, promotions and ticketing in Go, PocketBase and SvelteKit.',
+			'Build data pipelines and dashboards for network usage reporting in Go and PostgreSQL.',
+			'Set up and customise the HR system, and build SMS and customer portal platforms.'
 		],
 		roles: [
 			{ title: 'Senior Software Developer', dates: 'Jan 2023 - Present' },
@@ -68,7 +72,9 @@ export const experience = [
 		href: 'https://mlh.com',
 		logo: mlh,
 		details: [
-			'Contributed to can-merge, a CLI that checks whether a pull request can be merged using the GitHub GraphQL API.'
+			'Went from the Pre-Fellowship to the Explorer and Open Source tracks.',
+			'Contributed to can-merge, a CLI that checks whether a pull request can be merged from the status of its checks, using the GitHub GraphQL API.',
+			'Built GitDash in the Pre-Fellowship, a dashboard that tracks issues across all your repos and reminds you of deadlines.'
 		],
 		roles: [{ title: 'Open Source Fellow', dates: 'Aug 2021 - Apr 2022' }]
 	},
@@ -77,7 +83,8 @@ export const experience = [
 		href: 'https://csl.ws',
 		logo: csl,
 		details: [
-			'Built an e-filing document management system for Electric Power Corporation, moving paper files to searchable digital records with role-based access (Angular, .NET Core).'
+			"Built and deployed the e-filing system CSL won the tender for at Electric Power Corporation (Angular, .NET Core), replacing paper files with digital records indexed by EPC's filing scheme.",
+			'Added search and permissions for who can upload, view, download and archive each document.'
 		],
 		roles: [{ title: 'Full Stack Developer', dates: 'Mar 2021 - Jul 2021' }]
 	}
