@@ -6,8 +6,7 @@ import csl from './assets/logos/csl.png';
 
 export const site = {
 	name: 'Alesana Eteuati Jr',
-	// shortcut: GitHub Pages project URL, swap for a custom domain when there is one
-	url: 'https://green-ranger11.github.io/Alesana-Eteuati-Jr',
+	url: 'https://alesanajr.ws',
 	handle: 'alesana',
 	role: 'Senior Software Developer @ Vodafone Samoa',
 	about:
